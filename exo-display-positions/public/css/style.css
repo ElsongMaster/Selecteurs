@@ -26,6 +26,14 @@ section:first-of-type > ol:nth-of-type(3) + h2 {
 /* fin exo margin */
 
 /* exo padding */
+
+section:nth-of-type(2) > ol:first-of-type + h2 {
+  padding: 50px;
+}
+
+section:nth-of-type(2) > ol:nth-of-type(2) + h2 {
+  padding: 20%;
+}
 /* fin exo padding */
 
 /* exo display */
