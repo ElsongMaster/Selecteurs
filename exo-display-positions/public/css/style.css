@@ -1,8 +1,28 @@
 body {
-  margin: 0
+  margin: 0;
 }
 
 /* Exo margin */
+section {
+  background-color: #4da6ff;
+}
+h2 {
+  background-color: yellow;
+  border: 2px solid black;
+  font-size: 300px;
+}
+
+section:first-of-type > ol:first-of-type + h2 {
+  margin: 50px;
+}
+
+section:first-of-type > ol:nth-of-type(2) + h2 {
+  margin-left: 20%;
+}
+
+section:first-of-type > ol:nth-of-type(3) + h2 {
+  margin: auto;
+}
 /* fin exo margin */
 
 /* exo padding */
