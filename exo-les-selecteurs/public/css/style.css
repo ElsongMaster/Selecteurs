@@ -1,12 +1,44 @@
+/* exo 1 */
+/* consigne 1 */
 section {
   padding-bottom: 50px;
   border: 1px solid black;
 }
 
-section > h4:first-child {
+/* exo 1 */
+/* consigne 2 */
+section:first-child > h4 {
   color: blue;
 }
 
+/* exo 2 */
 section:nth-child(2) {
   border: 5px solid red;
+}
+
+/* exo 3 */
+section:nth-child(3) > h3,
+section:nth-child(3) > ul {
+  color: red;
+}
+
+/* exo 4 */
+section:nth-child(4) > ul > li:nth-child(2) a {
+  font-size: 25px;
+}
+
+/* exo 5 */
+section:nth-child(5) > h3 + span {
+  color: blue;
+}
+
+/* exo 6 */
+section:nth-child(6) > img {
+  border: 1px solid pink;
+  border-radius: 2px;
+}
+
+/* exo 7 */
+section:last-of-type:hover {
+  color: green;
 }
