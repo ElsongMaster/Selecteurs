@@ -39,6 +39,6 @@ section:nth-child(6) > img {
 }
 
 /* exo 7 */
-section:last-of-type:hover {
+section:last-of-type > p:hover {
   color: green;
 }
